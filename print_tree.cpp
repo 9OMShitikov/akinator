@@ -79,5 +79,9 @@ int main(int argc, char* argv[]) {
 
     clear_output(output_file);
     print_buff(buff_taken, &str_buff, output_file);
+
+    char str[256];
+    sprintf(str, "dot -O -Tpng %s", output_file);
+    system(str);
     char* buff;
 }
