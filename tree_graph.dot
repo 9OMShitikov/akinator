@@ -1,0 +1,14 @@
+digraph akinator_tree {
+v0 [label = "It isn't green?", style = filled, color = powderblue]
+v1 [label = "crocodile", style = filled, color = orangered]
+v2 [label = "It sometimes can talk?", style = filled, color = powderblue]
+v3 [label = "monkey", style = filled, color = orangered]
+v4 [label = "parrot", style = filled, color = orangered]
+v0->v1 [label = "No"]
+v0->v2 [label = "Yes"]
+{rank = same; v1, v2}
+v2->v3 [label = "No"]
+v2->v4 [label = "Yes"]
+{rank = same; v3, v4}
+}
+
