@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oleg/Public/Oleg/course_2/ded/akinator/print_tree.cpp" "/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o"
+  "/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/print_tree.cpp" "/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "auxilary_functions"
   )
 
 # Targets to which this target links.

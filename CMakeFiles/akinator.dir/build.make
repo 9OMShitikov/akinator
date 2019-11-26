@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator
+CMAKE_SOURCE_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator/akinator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator
+CMAKE_BINARY_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator/akinator
 
 # Include any dependencies generated for this target.
 include CMakeFiles/akinator.dir/depend.make
@@ -57,41 +57,67 @@ include CMakeFiles/akinator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/akinator.dir/flags.make
 
-CMakeFiles/akinator.dir/akinator.cpp.o: CMakeFiles/akinator.dir/flags.make
-CMakeFiles/akinator.dir/akinator.cpp.o: akinator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/akinator.dir/akinator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/akinator.dir/akinator.cpp.o -c /home/oleg/Public/Oleg/course_2/ded/akinator/akinator.cpp
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.o: CMakeFiles/akinator.dir/flags.make
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.o: main_sources/akinator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/akinator.dir/main_sources/akinator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/akinator.dir/main_sources/akinator.cpp.o -c /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/akinator.cpp
 
-CMakeFiles/akinator.dir/akinator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/akinator.dir/akinator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oleg/Public/Oleg/course_2/ded/akinator/akinator.cpp > CMakeFiles/akinator.dir/akinator.cpp.i
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/akinator.dir/main_sources/akinator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/akinator.cpp > CMakeFiles/akinator.dir/main_sources/akinator.cpp.i
 
-CMakeFiles/akinator.dir/akinator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/akinator.dir/akinator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oleg/Public/Oleg/course_2/ded/akinator/akinator.cpp -o CMakeFiles/akinator.dir/akinator.cpp.s
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/akinator.dir/main_sources/akinator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/akinator.cpp -o CMakeFiles/akinator.dir/main_sources/akinator.cpp.s
 
-CMakeFiles/akinator.dir/akinator.cpp.o.requires:
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.requires:
 
-.PHONY : CMakeFiles/akinator.dir/akinator.cpp.o.requires
+.PHONY : CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.requires
 
-CMakeFiles/akinator.dir/akinator.cpp.o.provides: CMakeFiles/akinator.dir/akinator.cpp.o.requires
-	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/akinator.cpp.o.provides.build
-.PHONY : CMakeFiles/akinator.dir/akinator.cpp.o.provides
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.provides: CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.requires
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.provides.build
+.PHONY : CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.provides
 
-CMakeFiles/akinator.dir/akinator.cpp.o.provides.build: CMakeFiles/akinator.dir/akinator.cpp.o
+CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.provides.build: CMakeFiles/akinator.dir/main_sources/akinator.cpp.o
+
+
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o: CMakeFiles/akinator.dir/flags.make
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o: auxilary_functions/my_stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o -c /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/auxilary_functions/my_stack.cpp
+
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/auxilary_functions/my_stack.cpp > CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.i
+
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/auxilary_functions/my_stack.cpp -o CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.s
+
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.requires:
+
+.PHONY : CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.requires
+
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.provides: CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.requires
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.provides.build
+.PHONY : CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.provides
+
+CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.provides.build: CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o
 
 
 # Object files for target akinator
 akinator_OBJECTS = \
-"CMakeFiles/akinator.dir/akinator.cpp.o"
+"CMakeFiles/akinator.dir/main_sources/akinator.cpp.o" \
+"CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o"
 
 # External object files for target akinator
 akinator_EXTERNAL_OBJECTS =
 
-akinator: CMakeFiles/akinator.dir/akinator.cpp.o
+akinator: CMakeFiles/akinator.dir/main_sources/akinator.cpp.o
+akinator: CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o
 akinator: CMakeFiles/akinator.dir/build.make
 akinator: CMakeFiles/akinator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable akinator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable akinator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/akinator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/akinator.dir/build: akinator
 
 .PHONY : CMakeFiles/akinator.dir/build
 
-CMakeFiles/akinator.dir/requires: CMakeFiles/akinator.dir/akinator.cpp.o.requires
+CMakeFiles/akinator.dir/requires: CMakeFiles/akinator.dir/main_sources/akinator.cpp.o.requires
+CMakeFiles/akinator.dir/requires: CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o.requires
 
 .PHONY : CMakeFiles/akinator.dir/requires
 
@@ -108,6 +135,6 @@ CMakeFiles/akinator.dir/clean:
 .PHONY : CMakeFiles/akinator.dir/clean
 
 CMakeFiles/akinator.dir/depend:
-	cd /home/oleg/Public/Oleg/course_2/ded/akinator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/akinator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oleg/Public/Oleg/course_2/ded/akinator/akinator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/akinator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/akinator.dir/depend
 

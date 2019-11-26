@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/akinator.dir/akinator.cpp.o"
+  "CMakeFiles/akinator.dir/main_sources/akinator.cpp.o"
+  "CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o"
   "akinator.pdb"
   "akinator"
 )

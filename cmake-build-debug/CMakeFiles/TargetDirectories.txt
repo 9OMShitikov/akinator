@@ -1,4 +1,0 @@
-/home/oleg/Public/Oleg/course_2/ded/akinator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/oleg/Public/Oleg/course_2/ded/akinator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/oleg/Public/Oleg/course_2/ded/akinator/cmake-build-debug/CMakeFiles/akinator.dir
-/home/oleg/Public/Oleg/course_2/ded/akinator/cmake-build-debug/CMakeFiles/akinator-tree-print.dir

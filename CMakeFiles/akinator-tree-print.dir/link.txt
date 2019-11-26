@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o  -o akinator-tree-print 
+/usr/bin/c++     CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o  -o akinator-tree-print 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator
+CMAKE_SOURCE_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator/akinator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator
+CMAKE_BINARY_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator/akinator
 
 # Include any dependencies generated for this target.
 include CMakeFiles/akinator-tree-print.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/akinator-tree-print.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/akinator-tree-print.dir/flags.make
 
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o: CMakeFiles/akinator-tree-print.dir/flags.make
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o: print_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o -c /home/oleg/Public/Oleg/course_2/ded/akinator/print_tree.cpp
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o: CMakeFiles/akinator-tree-print.dir/flags.make
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o: main_sources/print_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o -c /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/print_tree.cpp
 
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/akinator-tree-print.dir/print_tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oleg/Public/Oleg/course_2/ded/akinator/print_tree.cpp > CMakeFiles/akinator-tree-print.dir/print_tree.cpp.i
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/print_tree.cpp > CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.i
 
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/akinator-tree-print.dir/print_tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oleg/Public/Oleg/course_2/ded/akinator/print_tree.cpp -o CMakeFiles/akinator-tree-print.dir/print_tree.cpp.s
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/print_tree.cpp -o CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.s
 
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.requires:
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.requires:
 
-.PHONY : CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.requires
+.PHONY : CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.requires
 
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.provides: CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.provides.build
-.PHONY : CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.provides
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.provides: CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.requires
+	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.provides.build
+.PHONY : CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.provides
 
-CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.provides.build: CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o
+CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.provides.build: CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o
 
 
 # Object files for target akinator-tree-print
 akinator__tree__print_OBJECTS = \
-"CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o"
+"CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o"
 
 # External object files for target akinator-tree-print
 akinator__tree__print_EXTERNAL_OBJECTS =
 
-akinator-tree-print: CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o
+akinator-tree-print: CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o
 akinator-tree-print: CMakeFiles/akinator-tree-print.dir/build.make
 akinator-tree-print: CMakeFiles/akinator-tree-print.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable akinator-tree-print"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable akinator-tree-print"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/akinator-tree-print.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/akinator-tree-print.dir/build: akinator-tree-print
 
 .PHONY : CMakeFiles/akinator-tree-print.dir/build
 
-CMakeFiles/akinator-tree-print.dir/requires: CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o.requires
+CMakeFiles/akinator-tree-print.dir/requires: CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o.requires
 
 .PHONY : CMakeFiles/akinator-tree-print.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/akinator-tree-print.dir/clean:
 .PHONY : CMakeFiles/akinator-tree-print.dir/clean
 
 CMakeFiles/akinator-tree-print.dir/depend:
-	cd /home/oleg/Public/Oleg/course_2/ded/akinator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/akinator-tree-print.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oleg/Public/Oleg/course_2/ded/akinator/akinator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/akinator-tree-print.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/akinator-tree-print.dir/depend
 

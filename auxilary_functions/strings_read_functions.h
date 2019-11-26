@@ -323,14 +323,15 @@ void get_line_with_endl (char* str) {
     }
 }
 
-void say_and_print (const char* s) {
+void say_and_print (const char* s, bool use_audio) {
     ASSERT(s);
     char buff[strlen(s) + 32];
     strcpy(buff, "echo \"");
     strcat(buff, s);
     printf("%s\n", buff + 6);
     strncat(buff, "\" | festival --tts", 32);
-    system(buff);
+    if (use_audio)
+        system(buff);
 }
 
 void add_string_to_buff (char** buff, size_t& size, size_t& taken, const char* add) {

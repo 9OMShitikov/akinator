@@ -1,14 +1,29 @@
 digraph akinator_tree {
-v0 [label = "It isn't green?", style = filled, color = powderblue]
-v1 [label = "crocodile", style = filled, color = orangered]
-v2 [label = "It sometimes can talk?", style = filled, color = powderblue]
-v3 [label = "monkey", style = filled, color = orangered]
-v4 [label = "parrot", style = filled, color = orangered]
+v0 [label = "It is green?", style = filled, color = powderblue]
+v1 [label = "Sometimes can talk?", style = filled, color = powderblue]
+v2 [label = "Favourite Dedinsky's pet?", style = filled, color = powderblue]
+v3 [label = "crocodile", style = filled, color = orangered]
+v4 [label = "cat", style = filled, color = orangered]
+v5 [label = "monkey", style = filled, color = orangered]
+v6 [label = "Human?", style = filled, color = powderblue]
+v7 [label = "Likes physics?", style = filled, color = powderblue]
+v8 [label = "Oleg", style = filled, color = orangered]
+v9 [label = "parrot", style = filled, color = orangered]
+v10 [label = "Lyosha", style = filled, color = orangered]
 v0->v1 [label = "No"]
 v0->v2 [label = "Yes"]
 {rank = same; v1, v2}
+v1->v5 [label = "No"]
+v1->v6 [label = "Yes"]
+{rank = same; v5, v6}
 v2->v3 [label = "No"]
 v2->v4 [label = "Yes"]
 {rank = same; v3, v4}
+v6->v7 [label = "No"]
+v6->v8 [label = "Yes"]
+{rank = same; v7, v8}
+v7->v9 [label = "No"]
+v7->v10 [label = "Yes"]
+{rank = same; v9, v10}
 }
 

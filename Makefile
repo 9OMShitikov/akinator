@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator
+CMAKE_SOURCE_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator/akinator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator
+CMAKE_BINARY_DIR = /home/oleg/Public/Oleg/course_2/ded/akinator/akinator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles /home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,59 +136,86 @@ akinator-tree-print/fast:
 	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/build
 .PHONY : akinator-tree-print/fast
 
-akinator.o: akinator.cpp.o
+auxilary_functions/my_stack.o: auxilary_functions/my_stack.cpp.o
 
-.PHONY : akinator.o
-
-# target to build an object file
-akinator.cpp.o:
-	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/akinator.cpp.o
-.PHONY : akinator.cpp.o
-
-akinator.i: akinator.cpp.i
-
-.PHONY : akinator.i
-
-# target to preprocess a source file
-akinator.cpp.i:
-	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/akinator.cpp.i
-.PHONY : akinator.cpp.i
-
-akinator.s: akinator.cpp.s
-
-.PHONY : akinator.s
-
-# target to generate assembly for a file
-akinator.cpp.s:
-	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/akinator.cpp.s
-.PHONY : akinator.cpp.s
-
-print_tree.o: print_tree.cpp.o
-
-.PHONY : print_tree.o
+.PHONY : auxilary_functions/my_stack.o
 
 # target to build an object file
-print_tree.cpp.o:
-	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o
-.PHONY : print_tree.cpp.o
+auxilary_functions/my_stack.cpp.o:
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.o
+.PHONY : auxilary_functions/my_stack.cpp.o
 
-print_tree.i: print_tree.cpp.i
+auxilary_functions/my_stack.i: auxilary_functions/my_stack.cpp.i
 
-.PHONY : print_tree.i
+.PHONY : auxilary_functions/my_stack.i
 
 # target to preprocess a source file
-print_tree.cpp.i:
-	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/print_tree.cpp.i
-.PHONY : print_tree.cpp.i
+auxilary_functions/my_stack.cpp.i:
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.i
+.PHONY : auxilary_functions/my_stack.cpp.i
 
-print_tree.s: print_tree.cpp.s
+auxilary_functions/my_stack.s: auxilary_functions/my_stack.cpp.s
 
-.PHONY : print_tree.s
+.PHONY : auxilary_functions/my_stack.s
 
 # target to generate assembly for a file
-print_tree.cpp.s:
-	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/print_tree.cpp.s
-.PHONY : print_tree.cpp.s
+auxilary_functions/my_stack.cpp.s:
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/auxilary_functions/my_stack.cpp.s
+.PHONY : auxilary_functions/my_stack.cpp.s
+
+main_sources/akinator.o: main_sources/akinator.cpp.o
+
+.PHONY : main_sources/akinator.o
+
+# target to build an object file
+main_sources/akinator.cpp.o:
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/main_sources/akinator.cpp.o
+.PHONY : main_sources/akinator.cpp.o
+
+main_sources/akinator.i: main_sources/akinator.cpp.i
+
+.PHONY : main_sources/akinator.i
+
+# target to preprocess a source file
+main_sources/akinator.cpp.i:
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/main_sources/akinator.cpp.i
+.PHONY : main_sources/akinator.cpp.i
+
+main_sources/akinator.s: main_sources/akinator.cpp.s
+
+.PHONY : main_sources/akinator.s
+
+# target to generate assembly for a file
+main_sources/akinator.cpp.s:
+	$(MAKE) -f CMakeFiles/akinator.dir/build.make CMakeFiles/akinator.dir/main_sources/akinator.cpp.s
+.PHONY : main_sources/akinator.cpp.s
+
+main_sources/print_tree.o: main_sources/print_tree.cpp.o
+
+.PHONY : main_sources/print_tree.o
+
+# target to build an object file
+main_sources/print_tree.cpp.o:
+	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o
+.PHONY : main_sources/print_tree.cpp.o
+
+main_sources/print_tree.i: main_sources/print_tree.cpp.i
+
+.PHONY : main_sources/print_tree.i
+
+# target to preprocess a source file
+main_sources/print_tree.cpp.i:
+	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.i
+.PHONY : main_sources/print_tree.cpp.i
+
+main_sources/print_tree.s: main_sources/print_tree.cpp.s
+
+.PHONY : main_sources/print_tree.s
+
+# target to generate assembly for a file
+main_sources/print_tree.cpp.s:
+	$(MAKE) -f CMakeFiles/akinator-tree-print.dir/build.make CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.s
+.PHONY : main_sources/print_tree.cpp.s
 
 # Help Target
 help:
@@ -200,12 +227,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... akinator"
 	@echo "... akinator-tree-print"
-	@echo "... akinator.o"
-	@echo "... akinator.i"
-	@echo "... akinator.s"
-	@echo "... print_tree.o"
-	@echo "... print_tree.i"
-	@echo "... print_tree.s"
+	@echo "... auxilary_functions/my_stack.o"
+	@echo "... auxilary_functions/my_stack.i"
+	@echo "... auxilary_functions/my_stack.s"
+	@echo "... main_sources/akinator.o"
+	@echo "... main_sources/akinator.i"
+	@echo "... main_sources/akinator.s"
+	@echo "... main_sources/print_tree.o"
+	@echo "... main_sources/print_tree.i"
+	@echo "... main_sources/print_tree.s"
 .PHONY : help
 
 

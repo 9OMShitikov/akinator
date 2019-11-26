@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/akinator-tree-print.dir/print_tree.cpp.o"
+  "CMakeFiles/akinator-tree-print.dir/main_sources/print_tree.cpp.o"
   "akinator-tree-print.pdb"
   "akinator-tree-print"
 )

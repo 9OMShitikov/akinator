@@ -6,12 +6,20 @@
 
 #IncludeRegexTransform: 
 
-/home/oleg/Public/Oleg/course_2/ded/akinator/akinator.cpp
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/auxilary_functions/my_stack.cpp
+my_stack.h
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/auxilary_functions/my_stack.h
+
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/auxilary_functions/my_stack.h
+functional
+-
+stdint.h
+-
 iostream
 -
-vector
--
-string_view
+
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/akinator.cpp
+iostream
 -
 stdlib.h
 -
@@ -20,13 +28,31 @@ string.h
 stdio.h
 -
 strings_read_functions.h
-/home/oleg/Public/Oleg/course_2/ded/akinator/strings_read_functions.h
-akinator_functions.cpp
-/home/oleg/Public/Oleg/course_2/ded/akinator/akinator_functions.cpp
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/strings_read_functions.h
+akinator_functions.h
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/main_sources/akinator_functions.h
 
-/home/oleg/Public/Oleg/course_2/ded/akinator/akinator_functions.cpp
+auxilary_functions/akinator_functions.h
+strings_read_functions.h
+auxilary_functions/strings_read_functions.h
+my_stack.h
+auxilary_functions/my_stack.h
+my_stack.cpp
+auxilary_functions/my_stack.cpp
 
-/home/oleg/Public/Oleg/course_2/ded/akinator/strings_read_functions.h
+auxilary_functions/my_stack.cpp
+my_stack.h
+auxilary_functions/my_stack.h
+
+auxilary_functions/my_stack.h
+functional
+-
+stdint.h
+-
+iostream
+-
+
+auxilary_functions/strings_read_functions.h
 string_view
 -
 assert.h

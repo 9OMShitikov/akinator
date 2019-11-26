@@ -1,4 +1,4 @@
-/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/rebuild_cache.dir
-/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/edit_cache.dir
-/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/akinator.dir
-/home/oleg/Public/Oleg/course_2/ded/akinator/CMakeFiles/akinator-tree-print.dir
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/rebuild_cache.dir
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/edit_cache.dir
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/akinator.dir
+/home/oleg/Public/Oleg/course_2/ded/akinator/akinator/CMakeFiles/akinator-tree-print.dir
